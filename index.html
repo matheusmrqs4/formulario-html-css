@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Formulário de Pesquisa Valorant</title>
+</head>
+<body>
+        <div class="container">
+                <header>
+                    <h1 id="title">Formulário de Pesquisa</h1>
+                    <p id="description">Obrigado por dedicar um tempo para responder esta pesquisa</p>
+                    <img id="img" src="https://i.imgur.com/fkhwfWz.png" alt="Valorant" width="300" >
+                </header>
+                <form id="survey-form">
+                        <div class="form-input">
+                            <label id="name-survey">Nome</label>
+                            <input type="text" id="name" placeholder="Digite Seu Nome" class="form-inpute-size" required/>
+                        </div>
+                        <div class="form-input">
+                            <label id="email-survey">Email</label>
+                            <input type="text" id="email" placeholder="Digite Seu Email" class="form-inpute-size" required/>
+                        </div>
+                        <div class='form-input'>
+                            <label id='number-label'>Idade
+                                <span>(opcional)</span>
+                            </label>
+                            <input type='number' id='number' placeholder='00' min='0' max='100' class='form-input-size' />
+                        </div>
+                        <div class="form-input">
+                            <p>Qual sua Função?</p>
+                            <select id="dropdown" class="form-input-size" required>
+                                <option disabled selected value>Selecione sua função</option>
+                                <option value="Controlador">Controlador</option>
+                                <option value="Duelista">Duelista</option>
+                                <option value="Iniciador">Iniciador</option>
+                                <option value="Sentinela">Sentinela</option>
+                                <option value="Prefiro não responder">Prefiro não responder</option>
+                            </select>    
+                        </div>
+                        <div class="form-input">
+                            <p>Quais são seus Agentes favoritos?
+                                    <span>(Marque quantos preferir)</span>
+                            </p>
+                            <label> <input type="checkbox" id="check-box" value="Astra" ><img src="https://static.wikia.nocookie.net/valorant/images/0/08/Astra_icon.png/revision/latest/scale-to-width-down/24?cb=20210302164234"> Astra</label>
+                            <label> <input type="checkbox" id="check-box" value="Breach"><img src="https://static.wikia.nocookie.net/valorant/images/5/53/Breach_icon.png/revision/latest/scale-to-width-down/24?cb=20201128234328"> Breach</label>
+                            <label> <input type="checkbox" id="check-box" value="Brimstone"><img src="https://static.wikia.nocookie.net/valorant/images/4/4d/Brimstone_icon.png/revision/latest/scale-to-width-down/24?cb=20201128234311"> Brimstone</label>
+                            <label> <input type="checkbox" id="check-box" value="Chamber"><img src="https://static.wikia.nocookie.net/valorant/images/0/09/Chamber_icon.png/revision/latest/scale-to-width-down/24?cb=20211113013323">Chamber</label>
+                            <label> <input type="checkbox" id="check-box" value="Cypher"><img src="https://static.wikia.nocookie.net/valorant/images/8/88/Cypher_icon.png/revision/latest/scale-to-width-down/24?cb=20201128234211">Cypher</label>
+                            <label> <input type="checkbox" id="check-box" value="Jett"><img src="https://static.wikia.nocookie.net/valorant/images/3/35/Jett_icon.png/revision/latest/scale-to-width-down/24?cb=20201128234156">Jett</label>
+                            <label> <input type="checkbox" id="check-box" value="KAY/O"><img src="https://static.wikia.nocookie.net/valorant/images/f/f0/KAYO_icon.png/revision/latest/scale-to-width-down/24?cb=20210622225019">KAY/O</label>
+                            <label> <input type="checkbox" id="check-box" value="Killjoy"><img src="https://static.wikia.nocookie.net/valorant/images/1/15/Killjoy_icon.png/revision/latest/scale-to-width-down/24?cb=20200805002141">Killjoy</label>
+                            <label> <input type="checkbox" id="check-box" value="Neon"><img src="https://static.wikia.nocookie.net/valorant/images/d/d0/Neon_icon.png/revision/latest/scale-to-width-down/24?cb=20220111220652">Neon</label>
+                            <label> <input type="checkbox" id="check-box" value="Omen"><img src="https://static.wikia.nocookie.net/valorant/images/b/b0/Omen_icon.png/revision/latest/scale-to-width-down/24?cb=20201128234318">Omen</label>
+                            <label> <input type="checkbox" id="check-box" value="Phoenix"><img src="https://static.wikia.nocookie.net/valorant/images/1/14/Phoenix_icon.png/revision/latest/scale-to-width-down/24?cb=20201128234131">Phoenix</label>
+                            <label> <input type="checkbox" id="check-box" value="Raze"><img src="https://static.wikia.nocookie.net/valorant/images/9/9c/Raze_icon.png/revision/latest/scale-to-width-down/24?cb=20201128234400">Raze</label>          
+                            <label> <input type="checkbox" id="check-box" value="Reyna"><img src="https://static.wikia.nocookie.net/valorant/images/b/b0/Reyna_icon.png/revision/latest/scale-to-width-down/24?cb=20200607180311">Reyna</label> 
+                            <label> <input type="checkbox" id="check-box" value="Sage"><img src="https://static.wikia.nocookie.net/valorant/images/7/74/Sage_icon.png/revision/latest/scale-to-width-down/24?cb=20201128234057">Sage</label> 
+                            <label> <input type="checkbox" id="check-box" value="Skye"><img src="https://static.wikia.nocookie.net/valorant/images/3/33/Skye_icon.png/revision/latest/scale-to-width-down/24?cb=20201128234628">Skye</label> 
+                            <label> <input type="checkbox" id="check-box" value="Sova"><img src="https://static.wikia.nocookie.net/valorant/images/4/49/Sova_icon.png/revision/latest/scale-to-width-down/24?cb=20201128234221">Sova</label> 
+                            <label> <input type="checkbox" id="check-box" value="Viper"><img src="https://static.wikia.nocookie.net/valorant/images/5/5f/Viper_icon.png/revision/latest/scale-to-width-down/24?cb=20201128234408">Viper</label> 
+                            <label> <input type="checkbox" id="check-box" value="Yoru"><img src="https://static.wikia.nocookie.net/valorant/images/d/d4/Yoru_icon.png/revision/latest/scale-to-width-down/24?cb=20210112211830">Yoru</label>              
+                        </div>
+                        <div class="form-input">
+                            <p>Você recomendaria Valorant para um amigo ou família?</p>
+                            <input type="radio" name="responder" id="radio-btn" value="Sim" checked>Sim </br>
+                            <input type="radio" name="responder" id="radio-btn" value="Talvez"> Talvez </br>
+                            <input type="radio" name="responder" id="radio-btn" value="Não Tenho Certeza"> Não Tenho Certeza </br>
+                        </div>
+                        <div class="form-input">
+                            <p>Algum comentário ou sugestão?</p>
+                            <textarea type="text" placeholder="Escreva seu comentário ou sugestão aqui..."></textarea>
+                        </div>
+
+                        <div class="form-input">
+                            <button type="submit" id="submit">Enviar</button>
+                        </div>
+                </form>
+
+                <div class="rodape">
+                   <strong>Created by: <a href="http://www.twitter.com/m_marqs1" target="_blank"><i class="fab fa-twitter">@m_marqs1</i></a></strong>
+                </div>
+
+        </div>
+</body>
+</html>
